@@ -9,4 +9,7 @@ egg: $(SOURCES)
 install: $(SOURCES)
 	python setup.py install
 
+deb:
+	debuild -uc -us
+
 all: egg
