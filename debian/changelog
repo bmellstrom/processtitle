@@ -1,3 +1,9 @@
+processtitle (0.1.0-1) stable; urgency=high
+
+  * Bump version
+
+ -- Henrik Gustafsson <henrik.gustafsson@purplescout.se>  Wed, 11 Feb 2009 11:00:00 +0100
+
 processtitle (0.0.1-1) unstable; urgency=low
 
   * Initial version.
