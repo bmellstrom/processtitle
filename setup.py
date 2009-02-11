@@ -1,7 +1,7 @@
 from distutils.core import setup, Extension
 import sys
 
-version = '0.0.1'
+version = '0.1.0'
 author = 'Purple Scout AB'
 description = 'Module for setting process titles'
 author_email = "info@purplescout.se"
