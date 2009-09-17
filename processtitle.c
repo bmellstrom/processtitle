@@ -55,7 +55,12 @@ static char* moveenv(char** env)
 static int setupspace(int argc, char **argv, char **env)
 {
     if ((argc > 0) && argv && env) {
-        char* end = strend(argv[argc-1]);
+        int i = 0;
+        char* end = argv[i] - 1;
+        while (end + 1 == argv[i]) {
+            end = strend(argv[i]);
+            i++;
+        }
         if (end + 1 == env[0]) {
             end = moveenv(env);
         }
