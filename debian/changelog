@@ -1,3 +1,9 @@
+processtitle (0.2.1) unstable; urgency=low
+
+  * Fix for crash-bug.
+
+ -- Björn Mellström <bjorn.mellstrom@purplescout.se>  Thu, 17 Sep 2009 11:40:00 +0200
+
 processtitle (0.2.0-1) unstable; urgency=low
 
   * Release 0.2.0
